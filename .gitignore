@@ -1,0 +1,14 @@
+# Eclipse
+.classpath
+.project
+bin/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+src/main/java/Base/Main.java
