@@ -147,7 +147,8 @@ public class Rab extends JFrame {
 				tSummNaKon.setText(""+(Calculation.CalcWithCap(s,proc,sr)));
 				/** Присваиваем текстовому полю полученное значение */
 			}
-			else {																	/** В случае, когда нажатие на чекбокс не производится */
+			else {
+				/** В случае, когда нажатие на чекбокс не производится */
 				tSummNaKon.setText(""+(Calculation.CalcWithoutCap(s,proc,sr)));
 				/** Присваиваем текстовому полю полученное значение */
 			};
